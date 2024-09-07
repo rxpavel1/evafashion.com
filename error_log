@@ -1,0 +1,1287 @@
+[03-Nov-2022 16:07:29 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/smmpanels.xyz/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/smmpanels.xyz/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/smmpanels.xyz/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/smmpanels.xyz/GlyconSMMScript.php on line 522
+[11-Nov-2022 18:42:58 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: The "themes/panel/Simplify" directory does not exist ("/home/leakeclj/demo.leakstation.in/themes/panel/Simplify"). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:101
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(82): Twig_Loader_Filesystem->addPath('themes/panel/Si...', '__main__')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(40): Twig_Loader_Filesystem->setPaths(Array)
+#2 /home/leakeclj/demo.leakstation.in/system/update_funds.php(67): Twig_Loader_Filesystem->__construct('themes/panel/Si...')
+#3 /home/leakeclj/demo.leakstation.in/index.php(32): require_once('/home/leakeclj/...')
+#4 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 101
+[11-Nov-2022 18:43:03 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: The "themes/panel/Simplify" directory does not exist ("/home/leakeclj/demo.leakstation.in/themes/panel/Simplify"). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:101
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(82): Twig_Loader_Filesystem->addPath('themes/panel/Si...', '__main__')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(40): Twig_Loader_Filesystem->setPaths(Array)
+#2 /home/leakeclj/demo.leakstation.in/system/update_funds.php(67): Twig_Loader_Filesystem->__construct('themes/panel/Si...')
+#3 /home/leakeclj/demo.leakstation.in/index.php(32): require_once('/home/leakeclj/...')
+#4 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 101
+[11-Nov-2022 18:43:05 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: The "themes/panel/Simplify" directory does not exist ("/home/leakeclj/demo.leakstation.in/themes/panel/Simplify"). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:101
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(82): Twig_Loader_Filesystem->addPath('themes/panel/Si...', '__main__')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(40): Twig_Loader_Filesystem->setPaths(Array)
+#2 /home/leakeclj/demo.leakstation.in/system/update_funds.php(67): Twig_Loader_Filesystem->__construct('themes/panel/Si...')
+#3 /home/leakeclj/demo.leakstation.in/index.php(32): require_once('/home/leakeclj/...')
+#4 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 101
+[11-Nov-2022 18:46:49 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'leakeclj_demo.settings' doesn't exist in /home/leakeclj/demo.leakstation.in/system/update_funds.php:58
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/system/update_funds.php(58): PDOStatement->execute(Array)
+#1 /home/leakeclj/demo.leakstation.in/index.php(32): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/system/update_funds.php on line 58
+[11-Nov-2022 18:59:31 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[11-Nov-2022 19:23:48 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:243
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#7 /home/leakeclj/demo.lea in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 243
+[11-Nov-2022 19:25:22 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:274
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#7 /home/leakeclj/demo.lea in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 274
+[11-Nov-2022 19:27:31 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endif" tag. in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:269
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#5 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('services.twig', Array)
+#6 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 269
+[11-Nov-2022 19:29:20 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endif" tag. in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:270
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#5 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('services.twig', Array)
+#6 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 270
+[11-Nov-2022 19:31:06 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endfor" tag. in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:251
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#5 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('services.twig', Array)
+#6 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 251
+[11-Nov-2022 19:49:30 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:252
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+ in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 252
+[11-Nov-2022 20:46:28 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:248
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+ in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 248
+[11-Nov-2022 20:52:17 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:251
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+ in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 251
+[11-Nov-2022 20:59:48 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 200). in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:225
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Enviro in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 225
+[11-Nov-2022 21:00:13 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 200). in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:225
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environ in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 225
+[11-Nov-2022 21:00:27 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 200). in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:225
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environ in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 225
+[11-Nov-2022 21:14:07 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:220
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+ in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 220
+[11-Nov-2022 21:15:05 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig:220
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+ in /home/leakeclj/demo.leakstation.in/themes/panel/cerulean/services.twig on line 220
+[11-Nov-2022 22:28:15 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:345
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(40): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#7 /home/leakeclj/demo.leakstation.in/lib/twig/twig/li in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 345
+[11-Nov-2022 22:28:39 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:345
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(40): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#7 /home/leakeclj/demo.leakstati in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 345
+[11-Nov-2022 22:29:26 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:345
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#7 / in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 345
+[11-Nov-2022 22:30:13 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:345
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#7 /home/leakeclj/demo.leaksta in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 345
+[11-Nov-2022 22:30:22 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:345
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#7 / in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 345
+[12-Nov-2022 02:53:05 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 07:23:03 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:343
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#7 / in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 343
+[12-Nov-2022 07:23:41 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected character "!". in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:318
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Lexer.php(191): Twig_Lexer->lexExpression()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Lexer.php(101): Twig_Lexer->lexBlock()
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(512): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->tokenize(Object(Twig_Source))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#6 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('services.twig', Array)
+#7 /home/leakeclj/demo.leakstation.in/inde in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 318
+[12-Nov-2022 07:55:37 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:242
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#7 / in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 242
+[12-Nov-2022 07:56:00 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 168). in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:174
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environmen in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 174
+[12-Nov-2022 07:56:19 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 168). in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:230
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environmen in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 230
+[12-Nov-2022 07:56:34 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 168). in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:227
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environmen in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 227
+[12-Nov-2022 07:57:39 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:246
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#7 / in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 246
+[12-Nov-2022 07:59:38 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:240
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#7 / in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 240
+[12-Nov-2022 08:00:20 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 169). in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:183
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environmen in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 183
+[12-Nov-2022 08:03:07 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:240
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#7 / in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 240
+[12-Nov-2022 08:03:55 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endfor" tag. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:235
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#5 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('services.twig', Array)
+#6 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 235
+[12-Nov-2022 08:04:03 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endfor" tag. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:235
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#5 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('services.twig', Array)
+#6 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 235
+[12-Nov-2022 08:04:50 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endfor" tag. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:308
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('services.twig')
+#5 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('services.twig', Array)
+#6 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 308
+[12-Nov-2022 08:07:31 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 168). in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:228
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environmen in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 228
+[12-Nov-2022 08:07:40 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 168). in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:227
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environmen in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 227
+[12-Nov-2022 08:08:00 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 168). in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:187
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environmen in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 187
+[12-Nov-2022 08:17:44 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 213). in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:227
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(N in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 227
+[12-Nov-2022 08:17:53 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 213). in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig:227
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(N in /home/leakeclj/demo.leakstation.in/themes/panel/nice/services.twig on line 227
+[12-Nov-2022 08:45:07 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/header.twig:137
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(40): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('header.twig', NULL)
+#7 /hom in /home/leakeclj/demo.leakstation.in/themes/panel/nice/header.twig on line 137
+[12-Nov-2022 08:50:49 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 09:36:20 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 10:03:57 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 11:18:35 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/neworder.twig:626
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('neworder.twig')
+#7 / in /home/leakeclj/demo.leakstation.in/themes/panel/nice/neworder.twig on line 626
+[12-Nov-2022 12:43:46 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 13:24:24 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 13:28:09 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endif" tag. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/neworder.twig:193
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('neworder.twig')
+#5 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(623): Twig_Environment->render('neworder.twig', Array)
+#6 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/themes/panel/nice/neworder.twig on line 193
+[12-Nov-2022 13:28:11 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endif" tag. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/neworder.twig:193
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('neworder.twig')
+#5 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(623): Twig_Environment->render('neworder.twig', Array)
+#6 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/themes/panel/nice/neworder.twig on line 193
+[12-Nov-2022 14:00:56 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/demo.leakstation.in/themes/panel/nice/orders.twig:445
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('orders.twig')
+#7 /home in /home/leakeclj/demo.leakstation.in/themes/panel/nice/orders.twig on line 445
+[12-Nov-2022 14:24:54 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 16:13:23 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 16:18:25 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 16:32:38 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 17:03:13 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 17:04:45 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 17:14:53 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 17:26:12 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "login.twig" (looked into: themes/panel/nice). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('login.twig')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('login.twig')
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('login.twig')
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.twig')
+#4 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('login.twig', Array)
+#5 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[12-Nov-2022 17:26:15 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "login.twig" (looked into: themes/panel/nice). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('login.twig')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('login.twig')
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('login.twig')
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.twig')
+#4 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('login.twig', Array)
+#5 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[12-Nov-2022 17:26:20 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "login.twig" (looked into: themes/panel/nice). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('login.twig')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('login.twig')
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('login.twig')
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.twig')
+#4 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('login.twig', Array)
+#5 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[12-Nov-2022 17:27:24 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "login.twig" (looked into: themes/panel/nice). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('login.twig')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('login.twig')
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('login.twig')
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.twig')
+#4 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('login.twig', Array)
+#5 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[12-Nov-2022 17:27:52 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "login.twig" (looked into: themes/panel/nice). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('login.twig')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('login.twig')
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('login.twig')
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.twig')
+#4 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('login.twig', Array)
+#5 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[12-Nov-2022 17:29:32 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "login.twig" (looked into: themes/panel/nice). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('login.twig')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('login.twig')
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('login.twig')
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.twig')
+#4 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('login.twig', Array)
+#5 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[12-Nov-2022 17:29:43 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "login.twig" (looked into: themes/panel/nice). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('login.twig')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('login.twig')
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('login.twig')
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.twig')
+#4 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('login.twig', Array)
+#5 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[12-Nov-2022 17:29:48 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "login.twig" (looked into: themes/panel/nice). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('login.twig')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('login.twig')
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('login.twig')
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.twig')
+#4 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('login.twig', Array)
+#5 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[12-Nov-2022 17:31:27 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "login.twig" (looked into: themes/panel/nice). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('login.twig')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('login.twig')
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('login.twig')
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.twig')
+#4 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('login.twig', Array)
+#5 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[12-Nov-2022 17:31:34 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "login.twig" (looked into: themes/panel/nice). in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('login.twig')
+#1 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('login.twig')
+#2 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('login.twig')
+#3 /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.twig')
+#4 /home/leakeclj/demo.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('login.twig', Array)
+#5 /home/leakeclj/demo.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/demo.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[12-Nov-2022 17:36:16 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "login.twig" (looked into: themes/panel/nice). in /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('login.twig')
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('login.twig')
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('login.twig')
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.twig')
+#4 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('login.twig', Array)
+#5 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[12-Nov-2022 17:36:19 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "login.twig" (looked into: themes/panel/nice). in /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('login.twig')
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('login.twig')
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('login.twig')
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.twig')
+#4 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(484): Twig_Environment->render('login.twig', Array)
+#5 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[12-Nov-2022 17:37:03 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 17:37:14 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 17:55:13 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[12-Nov-2022 19:12:20 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 07:10:08 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 07:49:29 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endfor" tag. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/header1.twig:122
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('header1.twig', NULL)
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(378) : eval()'d code(23): Twig_Template->loadTemplate('header1.twig', 'neworder.twig', 1)
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Te in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/header1.twig on line 122
+[13-Nov-2022 07:49:29 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endfor" tag. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/header1.twig:122
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('header1.twig', NULL)
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(378) : eval()'d code(23): Twig_Template->loadTemplate('header1.twig', 'neworder.twig', 1)
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Te in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/header1.twig on line 122
+[13-Nov-2022 07:50:01 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endfor" tag. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/header1.twig:122
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('header1.twig', NULL)
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(378) : eval()'d code(23): Twig_Template->loadTemplate('header1.twig', 'api.twig', 1)
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Templat in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/header1.twig on line 122
+[13-Nov-2022 08:30:56 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 08:55:27 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_id' cannot be null in /home/leakeclj/fuckup.leakstation.in/controller/panel/neworder.php:272
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/controller/panel/neworder.php(272): PDOStatement->execute(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(191): require('/home/leakeclj/...')
+#2 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#3 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/controller/panel/neworder.php on line 272
+[13-Nov-2022 08:55:32 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_id' cannot be null in /home/leakeclj/fuckup.leakstation.in/controller/panel/neworder.php:272
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/controller/panel/neworder.php(272): PDOStatement->execute(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(191): require('/home/leakeclj/...')
+#2 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#3 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/controller/panel/neworder.php on line 272
+[13-Nov-2022 08:58:31 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_id' cannot be null in /home/leakeclj/fuckup.leakstation.in/controller/panel/neworder.php:272
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/controller/panel/neworder.php(272): PDOStatement->execute(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(191): require('/home/leakeclj/...')
+#2 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#3 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/controller/panel/neworder.php on line 272
+[13-Nov-2022 09:01:25 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_id' cannot be null in /home/leakeclj/fuckup.leakstation.in/controller/panel/neworder.php:272
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/controller/panel/neworder.php(272): PDOStatement->execute(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(191): require('/home/leakeclj/...')
+#2 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#3 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/controller/panel/neworder.php on line 272
+[13-Nov-2022 09:06:00 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 09:35:51 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:134
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 134
+[13-Nov-2022 09:36:06 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:134
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 134
+[13-Nov-2022 09:36:11 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:131
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 131
+[13-Nov-2022 09:36:23 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:131
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 131
+[13-Nov-2022 09:36:36 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:128
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 128
+[13-Nov-2022 09:36:40 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:128
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 128
+[13-Nov-2022 09:36:40 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:128
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 128
+[13-Nov-2022 09:39:30 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:113
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 113
+[13-Nov-2022 09:39:40 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:113
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 113
+[13-Nov-2022 09:39:46 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:87
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twi in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 87
+[13-Nov-2022 09:40:25 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:87
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twi in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 87
+[13-Nov-2022 09:40:27 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:87
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twi in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 87
+[13-Nov-2022 09:40:33 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:87
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twi in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 87
+[13-Nov-2022 09:40:35 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 79). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:87
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twi in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 87
+[13-Nov-2022 09:44:53 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:162
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('orders in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 162
+[13-Nov-2022 09:45:02 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:162
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('orders in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 162
+[13-Nov-2022 09:45:24 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:162
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('orders in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 162
+[13-Nov-2022 09:45:33 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 80). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:139
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 139
+[13-Nov-2022 09:45:47 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 80). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:133
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 133
+[13-Nov-2022 09:49:04 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 81). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:142
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 142
+[13-Nov-2022 09:49:06 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 81). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:142
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Tw in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 142
+[13-Nov-2022 10:28:20 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 137). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:183
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 183
+[13-Nov-2022 10:54:16 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' payment_method='18', payment_delivery='1', payment_extra=NULL' at line 1 in /home/leakeclj/fuckup.leakstation.in/controller/panel/payment.php:1654
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/controller/panel/payment.php(1654): PDOStatement->execute(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(191): require('/home/leakeclj/...')
+#2 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#3 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/controller/panel/payment.php on line 1654
+[13-Nov-2022 11:10:40 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endfor" tag. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig:191
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('orders.twig')
+#5 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(625): Twig_Environment->render('orders.twig', Array)
+#6 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/orders.twig on line 191
+[13-Nov-2022 11:45:55 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "endif" tag. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/neworder.twig:386
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('neworder.twig')
+#5 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(625): Twig_Environment->render('neworder.twig', Array)
+#6 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/neworder.twig on line 386
+[13-Nov-2022 14:02:48 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:124
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(40): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('view in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 124
+[13-Nov-2022 14:02:50 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:124
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(40): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('view in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 124
+[13-Nov-2022 14:22:43 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "elseif" tag. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:50
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('viewticket.twig')
+#5 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(625): Twig_Environment->render('viewticket.twig', Array)
+#6 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 50
+[13-Nov-2022 14:22:46 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "elseif" tag. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:50
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('viewticket.twig')
+#5 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(625): Twig_Environment->render('viewticket.twig', Array)
+#6 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 50
+[13-Nov-2022 14:23:36 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "elseif" tag. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:50
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('viewticket.twig')
+#5 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(625): Twig_Environment->render('viewticket.twig', Array)
+#6 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 50
+[13-Nov-2022 14:23:52 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "elseif" tag. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:50
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('viewticket.twig')
+#5 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(625): Twig_Environment->render('viewticket.twig', Array)
+#6 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 50
+[13-Nov-2022 14:26:45 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:134
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(40): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#7 /home/leakeclj/fuckup.leakstation in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 134
+[13-Nov-2022 14:32:05 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 14:38:35 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "elseif" tag. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:52
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('viewticket.twig')
+#5 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(625): Twig_Environment->render('viewticket.twig', Array)
+#6 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 52
+[13-Nov-2022 14:39:04 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "elseif" tag. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:51
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('viewticket.twig')
+#5 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(625): Twig_Environment->render('viewticket.twig', Array)
+#6 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#7 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 51
+[13-Nov-2022 14:55:05 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:125
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(40): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('view in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 125
+[13-Nov-2022 15:02:56 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 15:05:46 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 16:03:38 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 16:42:09 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 16:51:42 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 17:36:15 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 19:39:16 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 20:22:02 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[13-Nov-2022 21:29:00 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[14-Nov-2022 04:18:27 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[14-Nov-2022 10:10:30 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[20-Nov-2022 15:52:08 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[20-Nov-2022 16:00:55 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:91
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(40): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#7 /home/leakeclj/fuckup.leakstation. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 91
+[20-Nov-2022 16:04:32 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:88
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(40): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('viewt in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 88
+[20-Nov-2022 16:06:21 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:72
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(40): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#7 /home/leakeclj/fuckup.leakstation. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 72
+[20-Nov-2022 16:06:31 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:72
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(40): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#7 /home/leakeclj/fuckup.leakstatio in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 72
+[20-Nov-2022 16:06:32 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:72
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(40): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#7 /home/leakeclj/fuckup.leakstatio in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 72
+[20-Nov-2022 16:06:48 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:74
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(41): Twig_TokenStream->next()
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Parser->subparse(NULL, false)
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#7 /home/leakec in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 74
+[20-Nov-2022 16:07:02 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 23). in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig:41
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/TokenParser/If.php(34): Twig_Parser->subparse(Array)
+#5 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Parser.php(81): Twig_Pars in /home/leakeclj/fuckup.leakstation.in/themes/panel/nice/viewticket.twig on line 41
+[20-Nov-2022 16:28:55 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#2 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php on line 522
+[20-Nov-2022 16:49:03 Europe/Istanbul] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "paytmqr.twig" (looked into: themes/panel/nice). in /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('paytmqr.twig')
+#1 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('paytmqr.twig')
+#2 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('paytmqr.twig')
+#3 /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('paytmqr.twig')
+#4 /home/leakeclj/fuckup.leakstation.in/GlyconSMMScript.php(625): Twig_Environment->render('paytmqr.twig', Array)
+#5 /home/leakeclj/fuckup.leakstation.in/index.php(37): require_once('/home/leakeclj/...')
+#6 {main}
+  thrown in /home/leakeclj/fuckup.leakstation.in/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[21-Nov-2022 15:31:07 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and dripfeed=2' at line 1 in /home/sktamils/public_html/GlyconSMMScript.php:522
+Stack trace:
+#0 /home/sktamils/public_html/GlyconSMMScript.php(522): PDO->query('SELECT * FROM o...')
+#1 /home/sktamils/public_html/index.php(37): require_once('/home/sktamils/...')
+#2 {main}
+  thrown in /home/sktamils/public_html/GlyconSMMScript.php on line 522
+[21-Nov-2022 15:38:29 Asia/Kolkata] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "header1.twig" (looked into: themes/panel/nice) in "neworder.twig" at line 1. in /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('header1.twig')
+#1 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('header1.twig')
+#2 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('header1.twig')
+#3 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('header1.twig', NULL)
+#4 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(378) : eval()'d code(23): Twig_Template->loadTemplate('header1.twig', 'neworder.twig', 1)
+#5 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Template.php(390): __TwigTemplate_1140eca57be9ce9da03383b2181e45d3512e877af6e9 in /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[21-Nov-2022 15:38:29 Asia/Kolkata] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "header1.twig" (looked into: themes/panel/nice) in "neworder.twig" at line 1. in /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('header1.twig')
+#1 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('header1.twig')
+#2 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('header1.twig')
+#3 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('header1.twig', NULL)
+#4 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(378) : eval()'d code(23): Twig_Template->loadTemplate('header1.twig', 'neworder.twig', 1)
+#5 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Template.php(390): __TwigTemplate_1140eca57be9ce9da03383b2181e45d3512e877af6e9 in /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[21-Nov-2022 16:15:30 Asia/Kolkata] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "payment.twig" (looked into: themes/panel/nice). in /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('payment.twig')
+#1 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('payment.twig')
+#2 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('payment.twig')
+#3 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('payment.twig')
+#4 /home/sktamils/public_html/GlyconSMMScript.php(484): Twig_Environment->render('payment.twig', Array)
+#5 /home/sktamils/public_html/index.php(37): require_once('/home/sktamils/...')
+#6 {main}
+  thrown in /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[21-Nov-2022 16:15:35 Asia/Kolkata] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "payment.twig" (looked into: themes/panel/nice). in /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('payment.twig')
+#1 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('payment.twig')
+#2 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('payment.twig')
+#3 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('payment.twig')
+#4 /home/sktamils/public_html/GlyconSMMScript.php(625): Twig_Environment->render('payment.twig', Array)
+#5 /home/sktamils/public_html/index.php(37): require_once('/home/sktamils/...')
+#6 {main}
+  thrown in /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[21-Nov-2022 19:47:49 Asia/Kolkata] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "paytmqr.twig" (looked into: themes/panel/nice). in /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('paytmqr.twig')
+#1 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('paytmqr.twig')
+#2 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('paytmqr.twig')
+#3 /home/sktamils/public_html/lib/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('paytmqr.twig')
+#4 /home/sktamils/public_html/GlyconSMMScript.php(625): Twig_Environment->render('paytmqr.twig', Array)
+#5 /home/sktamils/public_html/index.php(37): require_once('/home/sktamils/...')
+#6 {main}
+  thrown in /home/sktamils/public_html/lib/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
